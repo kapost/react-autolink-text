@@ -1,19 +1,19 @@
 \<AutoLinkText /\>
 ================
 
-[![build status](https://img.shields.io/travis/OpenGov/react-autolink-text/master.svg?style=flat-square)](https://travis-ci.org/OpenGov/react-autolink-text)
+A React component for converting URLs in a given string of text into clicking link tags. Forked from http://github.com/OpenGov/react-autolink-text
 
-A React component for converting URLs in a given string of text into clicking link tags.
+Forked in order to update the React dependency to work with version `15.0.0`
 
 Installation
 ------------
-`npm install react-autolink-text`
+`npm install @kapost/react-autolink-text`
 
 Usage
 -----
 ```js
 import ReactDOM from 'react-dom';
-import AutoLinkText from 'react-autolink-text';
+import AutoLinkText from '@kapost/react-autolink-text';
 
 ReactDOM.render(
   <AutoLinkText text="Check out this cool component: http://github.com/OpenGov/react-autolink-text" />,

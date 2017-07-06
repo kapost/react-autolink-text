@@ -1,6 +1,6 @@
 ## 1.0.1
 
-* Removed .babelrc file causing issues in parent apps.
+* Updated babel and react test packages to build properly.
 
 ## 1.0.0
 

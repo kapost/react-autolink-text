@@ -1,11 +1,7 @@
-v2.0.0
-------
-### Breaking Changes
-- Now requires React 0.14 or higher.
+## 1.0.1
 
-v1.0.2
-------
-### Bug fixes
-- Improved URL protocol stripping to better generate clean anchor tag content text.
-- Fix React warnings about missing "key" props for children elements.
+* Removed .babelrc file causing issues in parent apps.
 
+## 1.0.0
+
+* Updated React dependency to work with 15.x.
